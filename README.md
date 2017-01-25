@@ -16,7 +16,7 @@ ec2-35-160-16-107.us-west-2.compute.amazonaws.com
 
 ----Software Installed and Configurations Changed----
 
-- I added the user "Udacity#2017" and assign him the password "udacity"
+- I added the user "grader" and assign him the password "Udacity#2017"
 - i edited his permissons using the "visudo" command and by adding the following line to the permissions file "grader ALL=(ALL:ALL) ALL"
 - Updated all packages with "sudo apt-get update" and "sudo apt-get upgrade"
 - Changed the timezone with "sudo dpkg-reconfigure tzdata"
